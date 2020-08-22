@@ -25,12 +25,14 @@ class MainActivity : AppCompatActivity() {
         val earthEmojiUnicode = 0x1F30F
         val pumpkinEmojiUnicode = 0x1F383
         val cryingEmojiUnicode = 0x1F62D
-        val oneEyeTearEmojiUnicode = 0x1F625
+        val oneEyeTearEmojiUnicode = 0x1F622
         val movieEmojiUnicode = 0x1F3AC
         val hundredEmojiUnicode = 0x1F4AF
         val fireEmojiUnicode = 0x1F525
         val sleepingEmojiUnicode = 0x1F634
         val heartEmojiUnicode = 0x2764
+        val pleadingEmojiUnicode = 0x1F97A
+        val pandaEmojiUnicode = 0x1F43C
 
         tvSmile.text = getEmoji(smileEmojiUnicode)
         tvLaugh.text = getEmoji(laughEmojiUnicode)
@@ -53,6 +55,8 @@ class MainActivity : AppCompatActivity() {
         tvFire.text = getEmoji(fireEmojiUnicode)
         tvSleeping.text = getEmoji(sleepingEmojiUnicode)
         tvHeart.text = getEmoji(heartEmojiUnicode)
+        tvPleading.text = getEmoji(pleadingEmojiUnicode)
+        tvPanda.text = getEmoji(pandaEmojiUnicode)
     }
 
     private fun getEmoji(unicode: Int): String {
