@@ -14,7 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         val smileEmojiString = getEmoji(smileEmojiUnicode)
         Log.d("PUI", smileEmojiString)
-        tvText.text = smileEmojiString
+        tvSmile.text = smileEmojiString
+
+        val laughEmojiUnicode = 0x1F602
+        val laughEmojiString = getEmoji(laughEmojiUnicode)
+        tvLaugh.text = laughEmojiString
     }
 
     private fun getEmoji(unicode: Int): String {
